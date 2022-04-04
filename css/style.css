@@ -1,0 +1,152 @@
+/* custom style-sheet */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #414042;
+}
+a,
+button {
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+}
+img {
+    max-width: 100%;
+}
+a,
+a:hover {
+    text-decoration: none;
+}
+p {
+    margin-bottom: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    color: #01498e;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+input:focus,
+button:focus {
+    outline: none;
+}
+section {
+    position: relative;
+}
+.logo {
+    max-width: 200px;
+    margin-bottom: 30px;
+}
+.home-banner {
+    padding-top: 30px;
+}
+.home-banner-content h2 {
+    color: #01498e;
+    font-size: 54px;
+    margin-bottom: 40px;
+    line-height: 70px;
+}
+.home-banner-content h5 {
+    color: #414042;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+.home-banner-content {
+    max-width: 536px;
+}
+.form-main p {
+    font-size: 26px;
+}
+.form-main p b {
+    font-weight: 600;
+}
+.form-box {
+    margin-bottom: 20px;
+}
+.home-banner-image {
+    max-width: 480px;
+    margin: 0 auto;
+}
+.home-banner .container {
+    max-width: 1220px;
+}
+.home-testimonial {
+    padding: 50px 0;
+}
+.testimonial-item {
+    margin: 15px 0;
+    background-color: #f1f2f2;
+    padding: 20px 30px;
+}
+.testimonial-item h4 {
+    color: #414042;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.testimonial-item .paragraph {
+    min-height: 96px;
+    margin-bottom: 15px;
+}
+.footer {
+    background-color: #01498e;
+    padding: 18px 0;
+    color: #fff;
+}
+.footer a {
+    display: inline-block;
+    color: #fff;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.footer p {
+    font-size: 20px;
+}
+.stay-informed .container {
+    max-width: 1220px;
+}
+.stay-informed {
+    padding-bottom: 60px;
+}
+.stay-informed-inner h2 {
+    font-size: 42px;
+    margin-bottom: 35px;
+}
+.stay-informed-inner p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.form-main {
+    max-width: 500px;
+}
+.stay-informed-inner .form-main {
+    margin: 0 auto;
+}
+.form-box .trybtn {
+    background-color: #0283ff;
+    width: 100%;
+    color: #fff;
+    margin-top: 18px;
+    font-size: 24px;
+    border-radius: 8px;
+    padding: 10px 0;
+}
+input.form-control {
+    border-radius: 8px;
+    height: 58px;
+    border-color: #01498e;
+    font-size: 20px;
+    padding-left: 15px;
+}

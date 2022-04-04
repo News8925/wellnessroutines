@@ -1,0 +1,52 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 98% !important;
+    }
+}
+@media screen and (max-width: 767px) {
+    .home-banner {
+        text-align: center;
+        padding-top: 50px;
+    }
+    .logo {
+        max-width: 200px;
+        margin-left: auto;
+        margin-bottom: 30px;
+        margin-right: auto;
+    }
+    .home-banner-content h2 {
+        font-size: 32px;
+        margin-bottom: 30px;
+        line-height: normal;
+    }
+
+    .home-banner-content h5 {
+        font-size: 18px;
+        line-height: normal;
+    }
+
+    .form-main p {
+        font-size: 16px;
+    }
+    .testimonial-item {
+        padding: 15px 20px;
+    }
+    .testimonial-item .paragraph {
+        min-height: auto;
+    }
+    .stay-informed-inner h2 {
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .stay-informed-inner p {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+    .footer a {
+        font-size: 18px;
+    }
+
+    .footer p {
+        font-size: 16px;
+    }
+}
